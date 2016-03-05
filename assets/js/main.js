@@ -4,7 +4,7 @@ $(function() {
     /*  PAGE LOADER
     /*---------------------------------------*/
     $(window).load(function(){
-        $('#page-loader').fadeOut('fast');
+        $('#page-loader').fadeOut('slow');
     });
     
     
