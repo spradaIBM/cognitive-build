@@ -63,6 +63,11 @@ p {
 }
 
 
+.bcg{
+
+  background-attachment: fixed;
+}
+
 .push {
   margin-left: 0px;
   -webkit-transition: all 0.2s ease 0s;
