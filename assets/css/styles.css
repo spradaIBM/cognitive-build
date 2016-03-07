@@ -183,8 +183,8 @@ p {
   bottom: 0px;
   top: 0px;
   zoom: 1;
-  opacity: 0.6;
-  filter: alpha(opacity=80);
+  opacity: 0.3;
+  filter: alpha(opacity=30);
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=80)";
 }
 .section.section-parallax-yes > .section-inner > .parallax .bcg {
@@ -543,7 +543,7 @@ span.navbar-trigger-close a:hover {
   content: " ";
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.3);
 }
 @media (min-width: 1280px) {
   #intro {
