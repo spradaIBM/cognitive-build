@@ -247,10 +247,10 @@
 .bar-chart .bar-chart-item {
   margin-bottom: 8px;
   height: 45px;
-  background: #44BFDA;
+  background: rgba(68,191,218,0.5);
   border-radius: 2px;
-  opacity: 0.8;
-  overflow: hidden;
+  opacity: 1;
+  /*overflow: hidden;*/
   white-space: nowrap;
 }
 .bar-chart .bar-chart-item > p {

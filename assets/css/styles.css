@@ -55,7 +55,7 @@ p {
 
 .generic-dark-section p{
 
-  color: #ccc;
+  color: #fff;
   font-size: 21px;
   line-height: 1.4;
   font-weight: 300;
@@ -183,8 +183,8 @@ p {
   bottom: 0px;
   top: 0px;
   zoom: 1;
-  opacity: 0.3;
-  filter: alpha(opacity=30);
+  opacity: 0.5;
+  filter: alpha(opacity=50);
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=80)";
 }
 .section.section-parallax-yes > .section-inner > .parallax .bcg {
