@@ -245,7 +245,7 @@
   }
 }
 .bar-chart .bar-chart-item {
-  margin-bottom: 8px;
+  margin-bottom: 14px;
   height: 45px;
   background: rgba(68,191,218,0.5);
   border-radius: 2px;
@@ -1829,10 +1829,51 @@
   margin-bottom: 40px;
 }
 @media (min-width: 768px) {
-  .timeline > li {
+
+
+
+  .timeline > li:nth-child(1) {
     margin-bottom: 20px;
     margin-top: -50px;
   }
+
+  .timeline > li:nth-child(2) {
+    margin-top: -320px;
+  }
+
+    .timeline > li:nth-child(3) {
+    margin-top: -342px;
+  }
+
+    .timeline > li:nth-child(4) {
+    margin-top: -230px;
+  }
+
+    .timeline > li:nth-child(5) {
+    margin-top: -260px;
+  }
+
+
+.timeline p{
+
+  font-size: 16px;
+  line-height: 180%;
+  font-weight: 300;
+}
+.timeline b{
+
+  font-size: 19px;
+  line-height: 150%;
+  font-weight: 400;
+  display: block;
+  margin-bottom: 19px;
+
+}
+
+
+
+
+
 }
 .timeline > li:last-child {
   margin-bottom: 0px;
@@ -1903,6 +1944,7 @@
 }
 .timeline > li > .timeline-panel > .timeline-heading > img {
   margin-bottom: 20px;
+  box-shadow: 0 10px 10px -10px #777;
 }
 .timeline > li > .timeline-panel > .timeline-heading > .timeline-title {
   margin: 0;

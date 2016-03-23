@@ -53,6 +53,7 @@ p {
   color: #8c9398;
 }
 
+
 .generic-dark-section p{
 
   color: #fff;
@@ -116,20 +117,24 @@ p {
   font-size: 35px;
   font-weight: 300;
   color: #ccc;
+  font-weight: 300;
 }
 @media (min-width: 480px) {
   .section > .section-inner .section-content .section-title > .main-title {
     font-size: 45px;
+    font-weight: 300;
   }
 }
 @media (min-width: 600px) {
   .section > .section-inner .section-content .section-title > .main-title {
     font-size: 55px;
+    font-weight: 300;
   }
 }
 @media (min-width: 768px) {
   .section > .section-inner .section-content .section-title > .main-title {
     font-size: 60px;
+    font-weight: 300;
   }
 }
 .section > .section-inner .section-content .section-title > .sub-title {
@@ -261,10 +266,11 @@ p {
 
 .ignite-btn2 {
   margin: 15px 0px 15px 0px;
-  display: inline-block; padding: 15px 40px; color: #2562ad;
+  display: inline-block; padding: 15px 40px; color: rgba(68,191,218,1);
   border: solid 1px #2562ad;
   font-weight: bold;
   letter-spacing: 0px;
+  text-align: center;
 }
 
 .ignite-darkbg {
@@ -273,11 +279,11 @@ p {
   min-width: 230px;
 }
 .ignite-darkbg:hover, .ignite-darkbg:focus {
-  border-color: #2562ad;
+  border-color: rgba(68,191,218,1);
 }
 
 .ignite-btn2:hover, .ignite-btn2:focus {
-  background-color: #2562ad;
+  background-color: rgba(68,191,218,1);
   color: #ffffff;
 }
 
@@ -758,6 +764,11 @@ span.navbar-trigger-close a:hover {
   color: #44BFDA;
 }
 
+p.quote-by{
+
+  color: #f0f0f0;
+}
+
 
 /*---------------------------------------------------------------------*/
 /*  11. TEAM SECTION
@@ -870,6 +881,10 @@ span.navbar-trigger-close a:hover {
 }
 #testimonials > .section-inner .section-content .section-title > .section-line {
   background-color: #f0f0f0;
+}
+
+#testimonials{
+  margin-top: -80px;
 }
 
 /*---------------------------------------------------------------------*/
