@@ -301,13 +301,13 @@ p {
   background-color: #fff;
 }
 #page-loader .preload {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-top: -200px;
-  margin-left: -200px;
+  margin-top: -150px;
+  margin-left: -150px;
 }
 
 
@@ -761,7 +761,7 @@ span.navbar-trigger-close a:hover {
   font-weight: 300;
 }
 #quote > .section-inner .section-content .quote-text > h2.quote-by {
-  color: #44BFDA;
+  color: #53DDFB;
 }
 
 p.quote-by{
@@ -869,6 +869,18 @@ p.quote-by{
   }
 }
 
+.what-makes-it-possible{
+
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+.what-makes-it-possible h3{
+
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+
 
 /*---------------------------------------------------------------------*/
 /*  12. TESTIMONIALS SECTION
@@ -975,4 +987,57 @@ footer.footer #copyright p {
   footer.footer #copyright p {
     text-align: left;
   }
+}
+
+
+
+.down-arrow{
+
+  font-size: 60px;
+}
+
+.navbar-brand img{
+padding-top: 10px;
+ max-width: 220px;
+}
+
+.intro-content a{
+  color: #fff;
+}
+
+.intro-content a:hover{
+  color: #44BFDA;
+}
+
+
+a.support-white:hover {
+  color: #fff;
+}
+
+.nav{
+
+  font-size: 12px;
+  font-weight: 300;
+}
+@media (min-width: 700px) and (max-width: 768px) {
+.team img{
+
+  width:30%;
+
+}
+@media (max-width: 768px) {
+.testimonial-item > .testimonial-content{
+
+  min-height: 10px;
+}
+}
+
+}
+@media (max-width: 1050px) {
+.bcg{
+
+  background-attachment: scroll;
+}
+
+
 }

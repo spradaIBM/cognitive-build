@@ -1626,6 +1626,7 @@
   position: relative;
   padding: 15px;
   background: #44BFDA;
+  min-height: 210px;
 }
 .testimonial-item > .testimonial-content:after {
   content: " ";
